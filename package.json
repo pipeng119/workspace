@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:xmly": "ng serve xmly -o --port 4208",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -24,6 +25,7 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.15",
     "@angular/cli": "~9.1.9",
     "@angular/compiler-cli": "~9.1.11",
     "@types/node": "^12.11.1",
